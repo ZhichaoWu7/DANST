@@ -14,7 +14,7 @@ def main():
     random_seed(42)
     dataset = args.dataset
     ### Start Running DANST ###
-    print("------Start Running scpDeconv------")
+    print("------Start Running DANST------")
     opt = options.get_option_list(dataset = dataset)
     ### Run Stage 1 ###
     print("------Start Running Stage 1 : Mixup reference------")
