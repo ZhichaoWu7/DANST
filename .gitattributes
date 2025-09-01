@@ -1,2 +1,4 @@
+*.h5ad filter=lfs diff=lfs merge=lfs -text
+.csv filter=lfs diff=lfs merge=lfs -text
 DANST/data/Mouse_Brain_Coronal/*.h5ad filter=lfs diff=lfs merge=lfs -text
 DANST/result/MBC/*.csv filter=lfs diff=lfs merge=lfs -text
